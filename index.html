@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <title>UpDate</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__holder">
+      <div class="header__box">
+        <a class="header__logo" href="index.html">
+          <img class="header__img" src="logo-1.svg" alt="logo">
+          UpDate
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a class="nav__link drop-down__arrow" href="courses.html">Courses <img src="drop-down-arrow.svg"
+                  alt="drop-down-arrow"></a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#">Teachers</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#">Blog</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="btn-box">
+        <a class="btn-box__link drop-down__arrow" href="#">
+          En <img src="drop-down-arrow.svg" alt="drop-down-arrow">
+        </a>
+        <a class="btn-box__link" href="#">
+          Sign In
+        </a>
+        <a class="btn-box__btn" href="#">
+          Trial free
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="offer">
+      <div class="offer__holder">
+        <div class="offer__text">
+          <h1 class="offer__title" tabindex="0">
+            Explore thousands of hands-on creative classes.
+          </h1>
+          <p class="offer__description" tabindex="0">
+            Start learning for
+            <a class="offer__link" href="">free</a>
+          </p>
+          <button class="offer-btn">
+            Choose a cource
+          </button>
+          <p class="offer__sale" tabindex="0">
+            50%
+          </p>
+          <p class="offer__time" tabindex="0">
+            <time>
+              24 Days 17:44:16
+            </time>
+          </p>
+        </div>
+        <ul class="offer__list">
+          <li class="offer__marketer offer__list-item" tabindex="0" role="button">
+            Marketer
+          </li>
+          <li class="offer__illustrator offer__list-item" tabindex="0" role="button">
+            Illustrator
+          </li>
+          <li class="offer__animator offer__list-item" tabindex="0" role="button">
+            Animator
+          </li>
+          <li class="offer__programmer offer__list-item" tabindex="0" role="button">
+            Programmer
+          </li>
+          <li class="offer__designer offer__list-item" tabindex="0" role="button">
+            Designer
+          </li>
+          <li class="offer__photographer offer__list-item" tabindex="0" role="button">
+            Photographer
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="learn">
+      <div class="learn__holder">
+        <div class="learn__text">
+          <h2 class="learn__title" tabindex="0">
+            What you will learn
+          </h2>
+          <p class="learn__description" tabindex="0">
+            Up-to-date knowledge from recognized market experts for beginners and practitioners
+          </p>
+          <p class="learn__description" tabindex="0">
+            On the platform, you can gain knowledge on current topics and in-demand skills. All courses are aimed at
+            practice: we monitor the relevance of the material and help with employment and internship
+          </p>
+        </div>
+        <div class="learn__counters">
+          <div class="learn__counter-item">
+            <p class="learn__counter-number" tabindex="0">
+              56
+            </p>
+            <p class="learn__counter-description" tabindex="0">
+              Courses
+            </p>
+            <hr class="learn__counter-line">
+          </div>
+          <div class="learn__counter-item">
+            <p class="learn__counter-number" tabindex="0">
+              108
+            </p>
+            <p class="learn__counter-description" tabindex="0">
+              Curators
+            </p>
+            <hr class="learn__counter-line">
+          </div>
+          <div class="learn__counter-item">
+            <p class="learn__counter-number" tabindex="0">
+              3 723
+            </p>
+            <p class="learn__counter-description" tabindex="0">
+              Graduates
+            </p>
+            <hr class="learn__counter-line">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="discover">
+      <div class="discover__holder">
+        <h2 class="discover__title" tabindex="0">
+          Discover Lifelong Learning
+        </h2>
+        <div class="discover__box">
+          <ul class="discover__list">
+            <li class="discover__list-item">
+              <button class="discover__button active" data-for="popular">
+                Popular
+              </button>
+            </li>
+            <li class="discover__list-item">
+              <button class="discover__button" data-for="animation">
+                Animation
+              </button>
+            </li>
+            <li class="discover__list-item">
+              <button class="discover__button" data-for="design">
+                Design
+              </button>
+            </li>
+            <li class="discover__list-item">
+              <button class="discover__button" data-for="illustration">
+                Illustration
+              </button>
+            </li>
+            <li class="discover__list-item">
+              <button class="discover__button" data-for="programing">
+                Programming
+              </button>
+            </li>
+            <li class="discover__list-item">
+              <button class="discover__button" data-for="photo-film">
+                Photo & Film
+              </button>
+            </li>
+            <li class="discover__list-item">
+              <button class="discover__button" data-for="marketing">
+                Marketing
+              </button>
+            </li>
+          </ul>
+          <a class="see__more-link" href="#">
+            See more
+            <img class="see__more-arrow" src="see_more_arrow.svg" alt="see more">
+          </a>
+        </div>
+        <div class="discover__cards active" data-tab="popular">
+          <article class="discover__card-item" tabindex="0">
+            <img src="card-img-1.jpg" alt="Sales Marketing">
+            <h3 class="discover__card-title">
+              Sales Marketing
+            </h3>
+            <p class="discover__card-length">
+              6 months
+            </p>
+          </article>
+          <article class="discover__card-item" tabindex="0">
+            <img src="card-img-2.jpg" alt="Data analytics">
+            <h3 class="discover__card-title">
+              Data analytics
+            </h3>
+            <p class="discover__card-length">
+              9 months
+            </p>
+          </article>
+          <article class="discover__card-item" tabindex="0">
+            <img src="card-img-3.jpg" alt="Design art">
+            <h3 class="discover__card-title">
+              Design art
+            </h3>
+            <p class="discover__card-length">
+              4 months
+            </p>
+          </article>
+          <article class="discover__card-item" tabindex="0">
+            <img src="card-img-4.jpg" alt="Animation ">
+            <h3 class="discover__card-title">
+              Animation
+            </h3>
+            <p class="discover__card-length">
+              8 months
+            </p>
+          </article>
+        </div>
+        <div class="discover__cards" data-tab="animation">
+          <article class="discover__card-item" tabindex="0">
+            <img src="card-img-4.jpg" alt="Animation ">
+            <h3 class="discover__card-title">
+              Animation
+            </h3>
+            <p class="discover__card-length">
+              8 months
+            </p>
+          </article>
+        </div>
+        <div class="discover__cards" data-tab="design">
+          <article class="discover__card-item" tabindex="0">
+            <img src="card-img-3.jpg" alt="Design art">
+            <h3 class="discover__card-title">
+              Design art
+            </h3>
+            <p class="discover__card-length">
+              4 months
+            </p>
+          </article>
+        </div>
+        <div class="discover__cards" data-tab="illustration">
+          <article class="discover__card-item" tabindex="0">
+            <img src="card-img-3.jpg" alt="Design art">
+            <h3 class="discover__card-title">
+              Design art
+            </h3>
+            <p class="discover__card-length">
+              4 months
+            </p>
+          </article>
+          <article class="discover__card-item" tabindex="0">
+            <img src="card-img-4.jpg" alt="Animation ">
+            <h3 class="discover__card-title">
+              Animation
+            </h3>
+            <p class="discover__card-length">
+              8 months
+            </p>
+          </article>
+        </div>
+        <div class="discover__cards" data-tab="programing">
+          <article class="discover__card-item" tabindex="0">
+            <img src="card-img-2.jpg" alt="Data analytics">
+            <h3 class="discover__card-title">
+              Data analytics
+            </h3>
+            <p class="discover__card-length">
+              9 months
+            </p>
+          </article>
+        </div>
+        <div class="discover__cards" data-tab="photo-film">
+          <article class="discover__card-item" tabindex="0">
+            <img src="card-img-3.jpg" alt="Design art">
+            <h3 class="discover__card-title">
+              Design art
+            </h3>
+            <p class="discover__card-length">
+              4 months
+            </p>
+          </article>
+          <article class="discover__card-item" tabindex="0">
+            <img src="card-img-4.jpg" alt="Animation ">
+            <h3 class="discover__card-title">
+              Animation
+            </h3>
+            <p class="discover__card-length">
+              8 months
+            </p>
+          </article>
+        </div>
+        <div class="discover__cards" data-tab="marketing">
+          <article class="discover__card-item" tabindex="0">
+            <img src="card-img-1.jpg" alt="Sales Marketing">
+            <h3 class="discover__card-title">
+              Sales Marketing
+            </h3>
+            <p class="discover__card-length">
+              6 months
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="find-program">
+      <div class="find-program__holder">
+        <div class="find-program__text">
+          <h2 class="find-program__title" tabindex="0">
+            Can't find a suitable program?
+          </h2>
+          <p class="find-program__description" tabindex="0">
+            We will help you with the choice!
+          </p>
+        </div>
+        <div class="find-program__help">
+          <form class="find-program__form" action="https://fom.in.ua/echo">
+            <input class="find-program__name" type="text" name="name" placeholder="Name">
+            <hr class="find-program__line">
+            <input class="find-program__email" type="email" name="email" placeholder="Email">
+            <hr class="find-program__line">
+            <button class="find-program__btn">
+              Help me
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__holder">
+      <div class="footer__container">
+        <div class="contacts">
+          <a class="footer__logo" href="index.html">
+            <img src="logo-2.svg" alt="logo">
+            UpDate
+          </a>
+          <a class="contacts__link" href="mailto:support@update.com">
+            support@update.com
+          </a>
+          <a class="contacts__link" href="tel:12136771024">
+            +1 (213) 677 10 24
+          </a>
+        </div>
+        <div class="sitemap__box">
+          <div class="sitemap">
+            <h6 class="sitemap__title" tabindex="0">
+              Courses
+            </h6>
+            <ul class="sitemap__list">
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  Animation
+                </a>
+              </li>
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  Design
+                </a>
+              </li>
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  Illustration
+                </a>
+              </li>
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  Programming
+                </a>
+              </li>
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  Photo & Film
+                </a>
+              </li>
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  Marketing
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="sitemap">
+            <h6 class="sitemap__title" tabindex="0">
+              Teachers
+            </h6>
+            <ul class="sitemap__list">
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  All Teachers
+                </a>
+              </li>
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  Become a Teacher
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="sitemap">
+            <h6 class="sitemap__title" tabindex="0">
+              Information
+            </h6>
+            <ul class="sitemap__list">
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  Blog
+                </a>
+              </li>
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  About us
+                </a>
+              </li>
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  FAQ
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="sitemap">
+            <h6 class="sitemap__title" tabindex="0">
+              En
+            </h6>
+            <ul class="sitemap__list">
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  English
+                </a>
+              </li>
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  French
+                </a>
+              </li>
+              <li class="sitemap__list-item">
+                <a class="sitemap__link" href="#">
+                  Russian
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <a class="privacy__link" href="#">
+        Policy privacy
+      </a>
+      <p class="copyright__text" tabindex="0">
+        Copyright 2022. All rights reserved
+      </p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
